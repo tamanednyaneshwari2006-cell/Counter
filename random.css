@@ -1,0 +1,36 @@
+#root{
+    background-color: antiquewhite;
+    padding: 100px;
+    align-items: center;
+    display: flex;
+  justify-content: center;
+}
+#container{
+    margin:0, 1fr ,0,1fr;
+    padding: 100px 10% 100px 10%;
+    align-items: center;
+    margin:0 200px 0 200px ;
+    background-color: #f3f3f3;
+    border-color: black;
+    border-radius: 10px;
+    
+}
+
+#container i {
+  color: rgb(91, 69, 216);
+}
+button{
+    width: 200px;
+    height:40px;
+    border-radius:3px;
+    background-color: rgb(102, 102, 183);
+}
+.spinner {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #007bff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
